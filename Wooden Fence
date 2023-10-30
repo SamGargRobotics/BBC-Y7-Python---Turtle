@@ -1,0 +1,17 @@
+from turtle import *
+x = int(input('How many planks? '))
+penup()
+backward(200)
+pendown()
+pencolor('brown')
+backward(10)
+for count in range(x):
+  forward(10)
+  right(90)
+  forward(100)
+  right(90)
+  forward(10)
+  right(90)
+  forward(100)
+  right(90)
+  forward(10)
