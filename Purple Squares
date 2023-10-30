@@ -1,0 +1,8 @@
+from turtle import *
+side_length = int(input('Side length'))
+fillcolor('purple')
+begin_fill()
+for count in range(4):
+  forward(side_length)
+  left(90)
+end_fill()
