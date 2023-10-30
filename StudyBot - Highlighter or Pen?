@@ -1,0 +1,6 @@
+from turtle import *
+highlighter_question = input('Use a highlighter? ')
+if highlighter_question == 'yes':
+  pencolor('yellow')
+  pensize(15)
+forward(100)
