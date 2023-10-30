@@ -1,0 +1,7 @@
+from turtle import *
+x = 5/70
+penup()
+backward(200)
+pendown()
+for count in range(200):
+  forward(x)
