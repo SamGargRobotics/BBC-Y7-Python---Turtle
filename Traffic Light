@@ -1,0 +1,35 @@
+from turtle import *
+safe = input('Is it safe to go? ')
+if safe == 'yes':
+  pensize(8)
+  fillcolor('green')
+  begin_fill()
+  for count in range(4):
+    forward(60)
+    left(90)
+  end_fill()
+elif safe == 'no':
+    pensize(8)
+    fillcolor('red')
+    begin_fill()
+    for count in range(4):
+      forward(60)
+      left(90)
+    end_fill()
+elif safe == 'maybe':
+    pensize(8)
+    fillcolor('yellow')
+    begin_fill()
+    for count in range(4):
+      forward(60)
+      left(90)
+    end_fill()
+elif safe == 'why':
+  input('no')
+  delay(1)
+  input('why do u do this to me idk why')
+  delay(1)
+  input(';(')
+else:
+  for count in range(999):
+    forward(999)
