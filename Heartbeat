@@ -1,0 +1,11 @@
+from turtle import *
+for count in range(3):
+  forward(20)
+  left(80)
+  forward(20)
+  right(160)
+  forward(40)
+  left(160)
+  forward(20)
+  right(80)
+  forward(20)
