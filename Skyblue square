@@ -1,0 +1,5 @@
+from turtle import *
+pencolor('skyblue')
+for count in range(4):
+  forward(80)
+  right(90)
